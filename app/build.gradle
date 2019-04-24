@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+    }
+}
+
+crashlytics {
+    enableNdk true
+    androidNdkOut 'obj'
+    androidNdkLibsOut 'libs'
+    manifestPath "$projectDir/src/main/AndroidManifest.xml"
+}

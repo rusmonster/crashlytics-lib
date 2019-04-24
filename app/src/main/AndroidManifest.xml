@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.twilio.chat.demo.coordinated5"
+          android:versionCode="31"
+          android:versionName="31-coordinated5">
+
+    <application>
+        <meta-data
+                android:name="io.fabric.ApiKey"
+                android:value="9aba35b897c2442a25c4585b78d14096ea0fcba1" />
+    </application>
+</manifest>
