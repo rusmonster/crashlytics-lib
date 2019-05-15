@@ -1,28 +1,19 @@
-    
-    --------- beginning of crash
-2019-04-24 14:52:26.410 4129-4222/com.twilio.chat.demo.coordinated5 A/libc: Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 4222 (dinated5 - 4222), pid 4129 (mo.coordinated5)
-2019-04-24 14:52:26.411 1627-19495/? W/audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
-2019-04-24 14:52:26.426 1627-19495/? I/chatty: uid=1041(audioserver) writer identical 1 line
-2019-04-24 14:52:26.441 1627-19495/? W/audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
-2019-04-24 14:52:26.446 4234-4234/? I/crash_dump32: obtaining output fd from tombstoned, type: kDebuggerdTombstone
-2019-04-24 14:52:26.447 1836-1836/? I//system/bin/tombstoned: received crash request for pid 4222
-2019-04-24 14:52:26.447 4234-4234/? I/crash_dump32: performing dump of process 4129 (target tid = 4222)
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG: Build fingerprint: 'google/sdk_gphone_x86_64/generic_x86_64:9/PSR1.180720.075/5124027:userdebug/dev-keys'
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG: Revision: '0'
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG: ABI: 'x86'
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG: pid: 4129, tid: 4222, name: dinated5 - 4222  >>> com.twilio.chat.demo.coordinated5 <<<
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG: Cause: null pointer dereference
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG:     eax cef05d40  ebx 00000000  ecx 00000000  edx cc450478
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG:     edi cc45049c  esi cc450478
-2019-04-24 14:52:26.451 4234-4234/? A/DEBUG:     ebp cc44ffe8  esp cc44ffb0  eip cdccd98c
-2019-04-24 14:52:26.456 4234-4234/? A/DEBUG: backtrace:
-2019-04-24 14:52:26.457 1627-19495/? W/audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
-2019-04-24 14:52:26.457 4234-4234/? A/DEBUG:     #00 pc 0148398c  /data/app/com.twilio.chat.demo.coordinated5-n7xtCTp9XpInx2VaNePD8A==/lib/x86/libtwilio-rtd-native.so (offset 0x1399000)
-2019-04-24 14:52:26.457 4234-4234/? A/DEBUG:     #01 pc 01524c2c  /data/app/com.twilio.chat.demo.coordinated5-n7xtCTp9XpInx2VaNePD8A==/lib/x86/libtwilio-rtd-native.so (offset 0x1399000) (rtd::ITMClient::createClient(std::__ndk1::weak_ptr<rtd::AbstractExecutor> const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&, std::__ndk1::shared_ptr<rtd::ITMClientListener>, std::__ndk1::shared_ptr<rtd::ITDCo
-2019-04-24 14:52:26.457 4234-4234/? A/DEBUG:     #02 pc 0144eec5  /data/app/com.twilio.chat.demo.coordinated5-n7xtCTp9XpInx2VaNePD8A==/lib/x86/libtwilio-rtd-native.so (offset 0x1399000)
-2019-04-24 14:52:26.457 4234-4234/? A/DEBUG:     #03 pc 0144a2c1  /data/app/com.twilio.chat.demo.coordinated5-n7xtCTp9XpInx2VaNePD8A==/lib/x86/libtwilio-rtd-native.so (offset 0x1399000)
-2019-04-24 14:52:26.457 4234-4234/? A/DEBUG:     #04 pc 0009cce5  /system/lib/libc.so (__pthread_start(void*)+53)
-2019-04-24 14:52:26.457 4234-4234/? A/DEBUG:     #05 pc 00033c1b  /system/lib/libc.so (__start_thread+75)
-2019-04-24 14:52:26.546 1627-19495/? I/chatty: uid=1041(audioserver) writer identical 6 lines
+2019-05-15 17:25:24.600 1610-3208/? W/audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG: Build fingerprint: 'google/sdk_gphone_x86_64/generic_x86_64:9/PSR1.180720.075/5124027:userdebug/dev-keys'
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG: Revision: '0'
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG: ABI: 'x86'
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG: pid: 11412, tid: 11529, name: inated8 - 11529  >>> com.twilio.chat.demo.coordinated8 <<<
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG: Cause: null pointer dereference
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG:     eax cbcc0d40  ebx 00000000  ecx 00000000  edx c9602478
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG:     edi c960249c  esi c9602478
+2019-05-15 17:25:24.604 11536-11536/? A/DEBUG:     ebp c9601fe8  esp c9601fb0  eip caa8898c
+2019-05-15 17:25:24.614 11536-11536/? A/DEBUG: backtrace:
+2019-05-15 17:25:24.615 11536-11536/? A/DEBUG:     #00 pc 0148498c  /data/app/com.twilio.chat.demo.coordinated8-chxFTLkXalsEagq3Bd_FhQ==/lib/x86/libtwilio-rtd-native.so (offset 0x139a000)
+2019-05-15 17:25:24.615 11536-11536/? A/DEBUG:     #01 pc 01525c2c  /data/app/com.twilio.chat.demo.coordinated8-chxFTLkXalsEagq3Bd_FhQ==/lib/x86/libtwilio-rtd-native.so (offset 0x139a000) (rtd::ITMClient::createClient(std::__ndk1::weak_ptr<rtd::AbstractExecutor> const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&, std::__ndk1::shared_ptr<rtd::ITMClientListener>, std::__ndk1::shared_ptr<rtd::ITDCo
+2019-05-15 17:25:24.615 11536-11536/? A/DEBUG:     #02 pc 0144fec5  /data/app/com.twilio.chat.demo.coordinated8-chxFTLkXalsEagq3Bd_FhQ==/lib/x86/libtwilio-rtd-native.so (offset 0x139a000)
+2019-05-15 17:25:24.615 11536-11536/? A/DEBUG:     #03 pc 0144b2c1  /data/app/com.twilio.chat.demo.coordinated8-chxFTLkXalsEagq3Bd_FhQ==/lib/x86/libtwilio-rtd-native.so (offset 0x139a000)
+2019-05-15 17:25:24.615 11536-11536/? A/DEBUG:     #04 pc 0009cce5  /system/lib/libc.so (__pthread_start(void*)+53)
+2019-05-15 17:25:24.615 11536-11536/? A/DEBUG:     #05 pc 00033c1b  /system/lib/libc.so (__start_thread+75)
+2019-05-15 17:25:24.614 1610-3208/? I/chatty: uid=1041(audioserver) writer identical 1 line

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.twilio.chat.demo.coordinated5"
+          package="com.twilio.chat.demo.coordinated8"
           android:versionCode="31"
-          android:versionName="31-coordinated5">
+          android:versionName="31-coordinated8">
 
     <application>
         <meta-data
